@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebsiteCarbon-NET", "WebsiteCarbon-NET\WebsiteCarbon-NET.csproj", "{99178AB7-8AF0-4D9E-B6E8-EB16AB5B6F3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebsiteCarbon-NET.Tests", "WebsiteCarbon-NET.Tests\WebsiteCarbon-NET.Tests.csproj", "{F4BC0B09-E093-4F8E-B7FD-5FB56B086EA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99178AB7-8AF0-4D9E-B6E8-EB16AB5B6F3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99178AB7-8AF0-4D9E-B6E8-EB16AB5B6F3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99178AB7-8AF0-4D9E-B6E8-EB16AB5B6F3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99178AB7-8AF0-4D9E-B6E8-EB16AB5B6F3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4BC0B09-E093-4F8E-B7FD-5FB56B086EA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4BC0B09-E093-4F8E-B7FD-5FB56B086EA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4BC0B09-E093-4F8E-B7FD-5FB56B086EA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4BC0B09-E093-4F8E-B7FD-5FB56B086EA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF8117B7-103F-4FA2-B088-B44D3D611E21}
+	EndGlobalSection
+EndGlobal
