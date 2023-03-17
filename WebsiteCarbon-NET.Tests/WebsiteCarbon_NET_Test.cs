@@ -16,7 +16,9 @@ namespace WebsiteCarbon_NET.Tests
             Assert.IsTrue(carbon.Url.Equals("https://github.com/"));
             Assert.IsNotNull(carbon.Bytes);
             Assert.IsNotNull(carbon.Green);
+            Assert.IsNotNull(carbon.CleanerThan);
             Assert.IsNotNull(carbon.Statistics);
+            Assert.IsNotNull(carbon.Statistics.AdjustedBytes);
             Assert.IsNotNull(carbon.Statistics.CO2);
             Assert.IsNotNull(carbon.Statistics.CO2.Grid);
             Assert.IsNotNull(carbon.Statistics.CO2.Renewable);
@@ -40,13 +42,16 @@ namespace WebsiteCarbon_NET.Tests
         }
 
         [TestMethod]
-        public void TestGetDataInformation_ValidBytesAndGreen_ReturnsJsonObject()
+        public void TestGetDataInBytesInformation_ValidBytesAndGreen_ReturnsJsonObject()
         {
             WebsiteCarbonClient client = new WebsiteCarbonClient();
-            WebsiteCarbon carbon = client.GetDataInformationAsync(100, 1).Result;
+            WebsiteCarbon carbon = client.GetDataInBytesInformationAsync(100, 1).Result;
             Assert.IsNotNull(carbon);
             Assert.IsNotNull(carbon.CleanerThan);
+            Assert.IsTrue(carbon.CleanerThan == 1);
             Assert.IsNotNull(carbon.Statistics);
+            Assert.IsNotNull(carbon.Statistics.AdjustedBytes);
+            Assert.IsTrue(carbon.Statistics.AdjustedBytes == 75.5);
             Assert.IsNotNull(carbon.Statistics.CO2);
             Assert.IsNotNull(carbon.Statistics.CO2.Grid);
             Assert.IsNotNull(carbon.Statistics.CO2.Renewable);

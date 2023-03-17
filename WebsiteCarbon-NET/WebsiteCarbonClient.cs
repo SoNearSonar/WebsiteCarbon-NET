@@ -30,9 +30,9 @@ namespace WebsiteCarbon_NET
             return await _client.GetWebsiteInformationAsync(url);
         }
 
-        public async Task<WebsiteCarbon> GetDataInformationAsync(uint bytes, uint isGreen)
+        public async Task<WebsiteCarbon> GetDataInBytesInformationAsync(uint bytes, uint isGreen)
         {
-            return await _client.GetDataInformationAsync(bytes, isGreen);
+            return await _client.GetDataInBytesInformationAsync(bytes, isGreen);
         }
     }
 }

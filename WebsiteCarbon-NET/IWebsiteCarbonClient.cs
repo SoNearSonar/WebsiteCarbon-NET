@@ -10,6 +10,6 @@ namespace WebsiteCarbon_NET
         Task<WebsiteCarbon> GetWebsiteInformationAsync(string url);
 
         [Get("/data?bytes={bytes}&green={isGreen}")]
-        Task<WebsiteCarbon> GetDataInformationAsync(uint bytes, uint isGreen);
+        Task<WebsiteCarbon> GetDataInBytesInformationAsync(uint bytes, uint isGreen);
     }
 }
