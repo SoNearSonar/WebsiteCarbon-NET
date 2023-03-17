@@ -9,6 +9,9 @@
 - [Website Carbon Calculator](https://www.websitecarbon.com/) - [Website Carbon API](https://api.websitecarbon.com/)
 - [ReactiveUI](https://github.com/reactiveui/) - [Refit](https://github.com/reactiveui/refit)
 
+## NuGet Package:
+[![WebsiteCarbonAPI-NET NuGet](https://img.shields.io/nuget/vpre/WebsiteCarbonAPI-NET?label=WebsiteCarbon-NET&style=flat-square)](https://www.nuget.org/packages/WebsiteCarbonAPI-NET)
+
 ## Notes:
 - Getting a result from this API takes a bit of time to calculate the first time. Future calls for the same URL / information within 24 hours will be much faster
 - Exceptions come from Refit in the form of APIException
