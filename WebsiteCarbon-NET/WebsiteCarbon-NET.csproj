@@ -5,7 +5,31 @@
     <RootNamespace>WebsiteCarbon_NET</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Authors>SoNearSonar</Authors>
+    <Description>A C# API wrapper for the website websitecarbon.com. A website that calculates carbon emissions of websites using a rough estimate</Description>
+    <PackageProjectUrl>https://github.com/SoNearSonar/WebsiteCarbon-NET</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/SoNearSonar/WebsiteCarbon-NET</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>api;c#;website;carbon;environment</PackageTags>
+    <PackageReleaseNotes>Initial release</PackageReleaseNotes>
+    <Title>Website Carbon .NET</Title>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Version>1.0.0</Version>
+    <PackageId>WebsiteCarbonAPI-NET</PackageId>
+    <Product>WebsiteCarbon-NET</Product>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\WaifuImAPI-NET\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />

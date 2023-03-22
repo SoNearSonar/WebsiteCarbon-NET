@@ -16,3 +16,11 @@ WebsiteCarbon-NET.Tests/obj/Debug/net6.0/
 WebsiteCarbon-NET.Tests/obj/
 
 WebsiteCarbon-NET/bin/Debug/net6.0/
+
+WebsiteCarbon-NET.Tests/bin/Release/net6.0/
+
+WebsiteCarbon-NET/bin/Debug/
+
+WebsiteCarbon-NET/bin/Release/net6.0/
+
+WebsiteCarbon-NET/bin/Release/
